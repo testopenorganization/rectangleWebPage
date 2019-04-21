@@ -1,0 +1,29 @@
+body{
+  background-color: green
+}
+
+
+#reactangle {
+
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    height:200px;
+}
+
+
+#squareContainer {
+    padding-top: 20px;
+}
+
+#square {
+
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    width:150px;
+    height:150px;
+    float:left;
+    padding-left:5px;
+    margin-left: 20px;
+}
