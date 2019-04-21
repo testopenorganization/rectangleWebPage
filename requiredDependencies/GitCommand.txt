@@ -1,0 +1,9 @@
+$ git init      ---Git intialized
+
+$ git status
+
+$ git commit
+[master d36510e] This is my first commit
+ 2 files changed, 50 insertions(+)
+ create mode 100644 Hello.html
+ create mode 100644 style.css
