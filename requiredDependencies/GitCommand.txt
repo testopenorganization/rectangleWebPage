@@ -2,8 +2,89 @@ $ git init      ---Git intialized
 
 $ git status
 
+$ git add .
+
+$ git commit message
+[master d36510e] This is my first commit
+ 2 files changed, 50 insertions(+)
+ create mode 100644 Hello.html
+ create mode 100644 style.css
+
+ create mode 100644 Hello.html
+ create mode 100644 style.css
+
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git push origin master
+fatal: unable to access 'https://github.com/testopenorganization/rectangleWebPage.git/': Could not resolve host: github.com
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git remote
+origin
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git remote -v
+origin  https://github.com/testopenorganization/rectangleWebPage.git (fetch)
+origin  https://github.com/testopenorganization/rectangleWebPage.git (push)
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git push origin master
+fatal: unable to access 'https://github.com/testopenorganization/rectangleWebPage.git/': Could not resolve host: github.com
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git push origin master
+remote: Permission to testopenorganization/rectangleWebPage.git denied to bpurnimareddy.
+fatal: unable to access 'https://github.com/testopenorganization/rectangleWebPage.git/': The requested URL returned error: 403
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 620 bytes | 310.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/testopenorganization/rectangleWebPage.git
+   62c1325..d36510e  master -> master
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+
+
+_________________________
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Hello.html
+        new file:   style.css
+
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
 $ git commit
 [master d36510e] This is my first commit
  2 files changed, 50 insertions(+)
  create mode 100644 Hello.html
  create mode 100644 style.css
+
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$
+
+Krishna@Purnima MINGW64 ~/Desktop/React/ReactangleWebPage/rectangleWebPage (master)
+$ git status
